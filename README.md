@@ -4,7 +4,7 @@ A simple, responsive personal portfolio website built using only HTML and CSS. T
 
 ## Demo
 
-[Live Demo](https://ronnett.github.io/simple-portfolio) 
+[Live Demo]( https://roneett.github.io/simple-portfolio/) 
 
 ## Table of Contents
 
