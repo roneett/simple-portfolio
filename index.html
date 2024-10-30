@@ -35,6 +35,48 @@
             font-size: 1.2em;
             color: #777;
         }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        p, ul {
+            color: #555;
+        }
+        /* About Section */
+        .about {
+            margin: 40px 0;
+        }
+        /* Skills Section */
+        .skills ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 0;
+        }
+        .skills li {
+            background: #ddd;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+        }
+        /* Experience and Education Sections */
+        .timeline {
+            margin: 40px 0;
+        }
+        .timeline-item {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .timeline-item h3 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        /* Projects Section */
         .projects {
             display: flex;
             flex-wrap: wrap;
@@ -56,9 +98,7 @@
             font-size: 1.5em;
             color: #333;
         }
-        .project p {
-            color: #555;
-        }
+        /* Contact Section */
         .contact {
             text-align: center;
             margin-top: 40px;
@@ -84,13 +124,50 @@
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
+        <h1>Ronnett</h1>
         <p>Front-End Developer | Software Engineer | Tech Enthusiast</p>
     </header>
 
-    <section class="container">
+    <section class="container about">
         <h2>About Me</h2>
         <p>Hello! I'm a front-end developer with a passion for building beautiful, responsive websites and applications. I specialize in HTML, CSS, and JavaScript and love learning new technologies.</p>
+    </section>
+
+    <section class="container skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Git</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+    <section class="container timeline">
+        <h2>Experience</h2>
+        <div class="timeline-item">
+            <h3>Front-End Developer | Company ABC</h3>
+            <p>Jan 2022 - Present</p>
+            <p>Developed and maintained the front-end of various client websites, ensuring responsive design and optimal performance.</p>
+        </div>
+        <div class="timeline-item">
+            <h3>Intern | Company XYZ</h3>
+            <p>Jun 2021 - Dec 2021</p>
+            <p>Assisted in developing e-commerce web applications, collaborating closely with senior developers to improve coding practices.</p>
+        </div>
+    </section>
+
+    <section class="container timeline">
+        <h2>Education</h2>
+        <div class="timeline-item">
+            <h3>Bachelor's in Computer Science | University Name</h3>
+            <p>2020 - 2024</p>
+            <p>Relevant coursework: Web Development, Algorithms, Database Management, and Software Engineering.</p>
+        </div>
     </section>
 
     <section class="container">
